@@ -90,3 +90,19 @@ Selecione a penúltima hash (ou a hash que deseja retornar) e copie-a. Em seguid
     E em seguida, utilize:
     $ git checkout nome_do_arquivo
     para apagar as mudanças no diretório local de trabalho.
+
+# Criando uma chave SSH:
+    O SSH é um protocolo que serve para autenticar um usuário remoto à um servidor. Para saber mais você deve acessar:
+    https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+
+# Ligando um repositório local a um remoto:
+    No terminal, dentro do diretório local do repositório digite:
+        $ git remote add origin url_do_repositório_remoto
+    No meu caso, por exemplo:
+        $ git remote add origin https://github.com/GiulianeOliveira/Git-comandos.git
+
+    DICA: utilize $ git remote -v para mais informações sobre o repositório.
+
+    Em seguida, utilize o comando:
+        $ git push -u origin master 
+    para enviar os arquivos para o repositório remoto.

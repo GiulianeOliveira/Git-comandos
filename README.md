@@ -54,6 +54,9 @@ Fazer um commit:
 $ git commit -m "Informe sua mensagem aqui"
 **Obs: a cada modificação feita em um arquivo já comitado, o mesmo deve ser adicionado ao git e comitado novamente. 
 
+Fazer push para o repositório remoto, atualizando-o conforme o seu repositório local:
+$ git push -u origin master
+
 Visualizar todos os autores e os comentários do que cada um comitou no repositório:
 $ git shortlog 
 
@@ -65,6 +68,9 @@ $ git diff
 
 Visualizar todos os commits realizados e suas hashes:
 $ git log
+
+Clonar um repositório já existente:
+$ git clone url_do_repositório
 
 # O que fazer quando fiz um commit que não deveria?
 -> Você deve retornar ao commit anterior, ou seja, a versão anterior ao seu commit "errado". Para isso, no diretório do repositório local digite o comando:
@@ -106,3 +112,10 @@ Selecione a penúltima hash (ou a hash que deseja retornar) e copie-a. Em seguid
     Em seguida, utilize o comando:
         $ git push -u origin master 
     para enviar os arquivos para o repositório remoto.
+
+# O que é fork de um projeto:
+    É um projeto que não é seu, é realizada uma cópia do mesmo para que você possa contribuir. Assim que
+    feitas as suas contribuições, você realiza um pull request para enviar ao dono do repositório os arquivos
+    com as suas modificações.
+
+

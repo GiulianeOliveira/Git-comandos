@@ -12,10 +12,11 @@ Caso utilize uma distro linux baseada em Debian/Ubuntu você pode utilizar o com
 ``$ sudo apt-get install git`` para baixar e instalar o git diretamente do seu terminal.
 
 ## Desinstalando o git:
-Em distros baseadas em Debian/Ubuntu utilize diretamente no seu terminal comando *$ sudo apt-get purge git* para remover tudo, até mesmo os arquivos de configuração ou utilize o comando *$ sudo apt-get remove git* para manter apenas os arquivos de configuração e remover o restante.
+Em distros baseadas em Debian/Ubuntu utilize diretamente no seu terminal comando ``$ sudo apt-get purge git`` para remover tudo, até mesmo os arquivos de configuração ou utilize o comando ``$ sudo apt-get remove git`` para manter apenas os arquivos de configuração e remover o restante.
 
 ## Atualizando o git:
-Antes de atualizá-lo verifique a versão que está instalada na sua máquina com o comando *$ git --version*, a versão mais recente atualmente *08/04/2020* é a 2.26.0
+Antes de atualizá-lo verifique a versão que está instalada na sua máquina com o comando ``$ git --version``, a versão mais recente atualmente *08/04/2020* é a 2.26.0
+
 Em seguida, abra o terminal e digite:
 
         $ sudo add-apt-repository ppa:git-core/ppa
@@ -48,11 +49,11 @@ Após ter baixado e instalado o git na sua máquina, você deve configurá-lo.
 
 ##### Adicionar arquivos no git:
     $ git add arquivo
-*Obs: todos os arquivos adicionados no git devem ser commitados, ou seja, será criada uma imagem(snapshot), uma versão desses arquivos.*
+####   *Obs: todos os arquivos adicionados no git devem ser commitados, ou seja, será criada uma imagem(snapshot), uma versão desses arquivos.*
 
 ##### Fazer um commit:
     $ git commit -m "Informe sua mensagem aqui"
-*Obs: a cada modificação feita em um arquivo já comitado, o mesmo deve ser adicionado ao git e comitado novamente.*
+#### *Obs: a cada modificação feita em um arquivo já comitado, o mesmo deve ser adicionado ao git e comitado novamente.*
 
 ##### Fazer push para o repositório remoto, atualizando-o conforme o seu repositório local:
     $ git push -u origin master
@@ -74,11 +75,13 @@ Após ter baixado e instalado o git na sua máquina, você deve configurá-lo.
 
 ## O que fazer quando fiz um commit que não deveria?
 Você deve retornar ao commit anterior, ou seja, a versão anterior ao seu commit "errado". 
-    Para isso, no diretório do repositório local digite o comando:
+
+Para isso, no diretório do repositório local digite o comando:
         
         $ git log
         
 Selecione a penúltima hash (ou a hash que deseja retornar) e copie-a. Em seguida, você deve escolher entre um destes três comandos para retornar ao commit no qual você selecionou:
+
    **1 -** o **soft** "cancela" o seu commit errado e retorna deixando os arquivos prontos para serem commitados novamente:
     
     $ git reset --soft cole_aqui_a_hash
@@ -108,8 +111,9 @@ Selecione a penúltima hash (ou a hash que deseja retornar) e copie-a. Em seguid
 
 ## Criando uma chave SSH:
    O SSH é um protocolo que serve para autenticar um usuário remoto à um servidor. 
+   
    Para saber mais você deve acessar:
-    *https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh*
+           *https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh*
 
 ## Ligando um repositório local a um remoto:
    No terminal, dentro do diretório local do repositório digite:
@@ -119,8 +123,7 @@ Selecione a penúltima hash (ou a hash que deseja retornar) e copie-a. Em seguid
    *No meu caso, por exemplo:*
         
         $ git remote add origin https://github.com/GiulianeOliveira/Git-comandos.git
-
-   *DICA: utilize **$ git remote -v** para mais informações sobre o repositório.*
+##### *DICA: utilize **$ git remote -v** para mais informações sobre o repositório.*
 
    Em seguida, utilize o comando:
     

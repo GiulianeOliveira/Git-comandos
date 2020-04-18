@@ -7,7 +7,8 @@ repositório e alguns comandos essenciais.
 
 ## Instalando o git no linux:
 Baixe o programa diretamente no site: *https://git-scm.com/downloads*
-```Caso utilize uma distro linux baseada em Debian/Ubuntu você pode utilizar o comando *$ sudo apt-get install git* para baixar e instalar o git diretamente do seu terminal.```
+
+Caso utilize uma distro linux baseada em Debian/Ubuntu você pode utilizar o comando *$ sudo apt-get install git* para baixar e instalar o git diretamente do seu terminal.
 
 ## Desinstalando o git:
 Em distros baseadas em Debian/Ubuntu utilize diretamente no seu terminal comando *$ sudo apt-get purge git* para remover tudo, até mesmo os arquivos de configuração ou utilize o comando *$ sudo apt-get remove git* para manter apenas os arquivos de configuração e remover o restante.

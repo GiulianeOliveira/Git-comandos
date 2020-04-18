@@ -40,7 +40,8 @@ Em seguida, abra o terminal e digite:
     $ git init
 
 ## Alguns comandos importantes:
-    Verificar a versão do git instalado na sua máquina:
+####   **Verificar a versão do git instalado na sua máquina:**
+    
     $ git --version
 
 **Mostrar o estado atual do seu repositório:**

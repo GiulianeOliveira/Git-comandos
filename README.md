@@ -40,37 +40,37 @@ Em seguida, abra o terminal e digite:
     $ git init
 
 ## Alguns comandos importantes: :sparkles:
-#####   **Verificar a versão do git instalado na sua máquina:** 
+#####  Verificar a versão do git instalado na sua máquina:
     $ git --version
 
-##### **Mostrar o estado atual do seu repositório:**
+##### Mostrar o estado atual do seu repositório:
     $ git status
 
 ##### Adicionar arquivos no git:
-$ git add arquivo
-**Obs: todos os arquivos adicionados no git devem ser commitados, ou seja, será criada uma imagem(snapshot), uma versão desses arquivos.
+    $ git add arquivo
+#### *Obs: todos os arquivos adicionados no git devem ser commitados, ou seja, será criada uma imagem(snapshot), uma versão desses arquivos.
 
-Fazer um commit:
-$ git commit -m "Informe sua mensagem aqui"
-**Obs: a cada modificação feita em um arquivo já comitado, o mesmo deve ser adicionado ao git e comitado novamente. 
+##### Fazer um commit:
+    $ git commit -m "Informe sua mensagem aqui"
+#### *Obs: a cada modificação feita em um arquivo já comitado, o mesmo deve ser adicionado ao git e comitado novamente. 
 
-Fazer push para o repositório remoto, atualizando-o conforme o seu repositório local:
-$ git push -u origin master
+##### Fazer push para o repositório remoto, atualizando-o conforme o seu repositório local:
+    $ git push -u origin master
 
-Visualizar todos os autores e os comentários do que cada um comitou no repositório:
-$ git shortlog 
+##### Visualizar todos os autores e os comentários do que cada um comitou no repositório:
+    $ git shortlog 
 
-Visualizar o que foi adicionado na versão da Hash escolhida:
-$ git show nome_da_hash
+##### Visualizar o que foi adicionado na versão da Hash escolhida:
+    $ git show nome_da_hash
 
-Visualizar o que foi adicionado ao arquivo ainda não adicionado:
-$ git diff 
+##### Visualizar o que foi adicionado ao arquivo ainda não adicionado:
+    $ git diff 
 
-Visualizar todos os commits realizados e suas hashes:
-$ git log
+##### Visualizar todos os commits realizados e suas hashes:
+    $ git log
 
-Clonar um repositório já existente:
-$ git clone url_do_repositório
+##### Clonar um repositório já existente:
+    $ git clone url_do_repositório
 
 ## O que fazer quando fiz um commit que não deveria?
 -> Você deve retornar ao commit anterior, ou seja, a versão anterior ao seu commit "errado". Para isso, no diretório do repositório local digite o comando:

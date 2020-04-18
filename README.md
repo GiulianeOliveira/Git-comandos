@@ -39,14 +39,14 @@ Em seguida, abra o terminal e digite:
 -> Em seguida inicialize o repositório:
     $ git init
 
-## Alguns comandos importantes:
+## Alguns comandos importantes: :sparkles:
 #####   **Verificar a versão do git instalado na sua máquina:** 
     $ git --version
 
-#### **Mostrar o estado atual do seu repositório:**
+##### **Mostrar o estado atual do seu repositório:**
     $ git status
 
-###### Adicionar arquivos no git:
+##### Adicionar arquivos no git:
 $ git add arquivo
 **Obs: todos os arquivos adicionados no git devem ser commitados, ou seja, será criada uma imagem(snapshot), uma versão desses arquivos.
 

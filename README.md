@@ -49,11 +49,12 @@ Após ter baixado e instalado o git na sua máquina, você deve configurá-lo.
 
 ##### Adicionar arquivos no git:
     $ git add arquivo
-####   *Obs: todos os arquivos adicionados no git devem ser commitados, ou seja, será criada uma imagem(snapshot), uma versão desses arquivos.*
+    
+   *Obs: todos os arquivos adicionados no git devem ser commitados, ou seja, será criada uma imagem(snapshot), uma versão desses arquivos.*
 
 ##### Fazer um commit:
     $ git commit -m "Informe sua mensagem aqui"
-#### *Obs: a cada modificação feita em um arquivo já comitado, o mesmo deve ser adicionado ao git e comitado novamente.*
+   *Obs: a cada modificação feita em um arquivo já comitado, o mesmo deve ser adicionado ao git e comitado novamente.*
 
 ##### Fazer push para o repositório remoto, atualizando-o conforme o seu repositório local:
     $ git push -u origin master

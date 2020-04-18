@@ -2,7 +2,7 @@
 Este repositório possui um pequeno tutorial explicando o que é o git, como configurá-lo, como inicializar um
 repositório e alguns comandos essenciais.
 
-## O que é o git?
+## O que é o git? :octocat:
 -> É um sistema de controle de versão. O git trabalha com versionamento de arquivos, através de seus estados, chamados de snapshots.
 
 ## Instalando o git no linux:
@@ -40,14 +40,13 @@ Em seguida, abra o terminal e digite:
     $ git init
 
 ## Alguns comandos importantes:
-####   **Verificar a versão do git instalado na sua máquina:**
-    
+######   **Verificar a versão do git instalado na sua máquina:** 
     $ git --version
 
-**Mostrar o estado atual do seu repositório:**
-$ git status
+###### **Mostrar o estado atual do seu repositório:**
+    $ git status
 
-Adicionar arquivos no git:
+###### Adicionar arquivos no git:
 $ git add arquivo
 **Obs: todos os arquivos adicionados no git devem ser commitados, ou seja, será criada uma imagem(snapshot), uma versão desses arquivos.
 

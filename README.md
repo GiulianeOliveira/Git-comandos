@@ -21,7 +21,8 @@ Em seguida, abra o terminal e digite:
 
 ## Iniciando o git na sua máquina:
 -> Após ter baixado e instalado o git na sua máquina, você deve configurar o seu git. 
-    *Para definir seu nome de usuário, abra o terminal e digite:*
+
+    **Para definir seu nome de usuário, abra o terminal e digite:**
         $ git config --global user.name "Fulano da Silva"
     
     Para definir o seu e-mail:
